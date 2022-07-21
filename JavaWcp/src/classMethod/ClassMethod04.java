@@ -21,3 +21,4 @@ public class ClassMethod04 {
         yamada.instanceMethodPrint();
     }
 }
+
