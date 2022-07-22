@@ -27,6 +27,7 @@ public class Chapter10 {
 			// スタックトレースを出力
 			e.printStackTrace();
 		} finally {
+			// 例外発生しても出力するため、finallyブロックに記述
 			System.out.println("throwSQLExceptionの呼び出し終了");
 		}
 		
