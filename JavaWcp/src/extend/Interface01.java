@@ -15,8 +15,10 @@ public class Interface01 {
         // classTakePictureメソッドの呼び出し
         Interface01.classTakePicture(mobilePhone);
     }
-
+    
+    // Cameraインターフェース実装したクラスは呼び出しできる
     public static void classTakePicture(Camera camera) {
+    	// アップキャストされた変数のメソッドを呼び出し
         camera.takePicture();
     }
 }
